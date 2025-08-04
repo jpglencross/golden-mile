@@ -21,10 +21,12 @@
     "@prisma/client": "latest"
   },
   "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.9.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "eslint": "^8.57.0",
     "prisma": "latest",
+    "prisma-erd-generator": "^2.0.4",
     "rimraf": "^5.0.5",
     "tsup": "^8.0.2",
     "tsx": "4.19.1",

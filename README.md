@@ -77,23 +77,7 @@ If you added a custom database name, or use a cloud based database, you will nee
 Once your database is running, you’ll need to create and apply migrations to set up the necessary tables. Run the database migration command:
 
 ```bash
-# Using npm
-npm run db:migrate:dev
-```
-
-<details>
-
-<summary>Expand for <code>yarn</code>, <code>pnpm</code> or <code>bun</code></summary>
-
-```bash
-# Using yarn
-yarn run db:migrate:dev
-
-# Using pnpm
 pnpm run db:migrate:dev
-
-# Using bun
-bun run db:migrate:dev
 ```
 
 </details>
@@ -111,23 +95,7 @@ To populate your database with initial or fake data, use [Prisma's seeding funct
 Update the seed script located at [`packages/database/src/seed.ts`](/packages/database/src/seed.ts) to include any additional data that you want to seed. Once edited, run the seed command:
 
 ```bash
-# Using npm
-npm run db:seed
-```
-
-<details>
-
-<summary>Expand for <code>yarn</code>, <code>pnpm</code> or <code>bun</code></summary>
-
-```bash
-# Using yarn
-yarn run db:seed
-
-# Using pnpm
 pnpm run db:seed
-
-# Using bun
-bun run db:seed
 ```
 
 </details>
@@ -137,23 +105,7 @@ bun run db:seed
 To build all apps and packages in the monorepo, run:
 
 ```bash
-# Using npm
-npm run build
-```
-
-<details>
-
-<summary>Expand for <code>yarn</code>, <code>pnpm</code> or <code>bun</code></summary>
-
-```bash
-# Using yarn
-yarn run build
-
-# Using pnpm
 pnpm run build
-
-# Using bun
-bun run build
 ```
 
 </details>
@@ -163,22 +115,7 @@ bun run build
 Finally, start your application with:
 
 ```bash
-yarn run dev
-```
-
-<details>
-
-<summary>Expand for <code>yarn</code>, <code>pnpm</code> or <code>bun</code></summary>
-
-```bash
-# Using yarn
-yarn run dev
-
-# Using pnpm
 pnpm run dev
-
-# Using bun
-bun run dev
 ```
 
 </details>
